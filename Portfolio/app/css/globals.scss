@@ -15,7 +15,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   background-color: #0d1224;
-  cursor: url('/pointer.png'), none;
+  // cursor: url('/pointer.png'), none;
 }
 
 #sticky-card-1 {
@@ -39,9 +39,9 @@ body {
   top: calc(var(--index) * 4rem);
 }
 
-.cursor-pointer {
-  cursor: url('/pointer.png'), none;
-}
+// .cursor-pointer {
+//   cursor: url('/pointer.png'), none;
+// }
 
 .neon-text {
   color: #16f2b3;
