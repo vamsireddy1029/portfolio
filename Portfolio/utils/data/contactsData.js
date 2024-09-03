@@ -1,10 +1,10 @@
 export const contactsData = {
-    email: 'vidhey.bhogadi2003@gmail.com',
-    phone: '+917396104404',
-    address: 'Near holy cross school, Gudivada, India - 521301 ',
-    github: 'https://github.com/Vidhey012',
-    facebook: 'https://www.facebook.com/bhogadividhey/',
-    linkedIn: 'https://www.linkedin.com/in/bhogadi-vidhey-aa62b71a8/',
-    twitter: 'https://x.com/name_is_vidhey',  
-    instagram: 'https://www.instagram.com/b_vidhey/',
+    email: 'vamsireddy1029@gmail.com',
+    phone: '+916302549989',
+    address: 'G.S.R.Vidyalayas',
+    github: 'https://github.com/vamsireddy1029',
+    facebook: 'https://www.facebook.com/vamsireddy/',
+    linkedIn: 'https://www.linkedin.com/in/vamsi-reddy-450583269/',
+    twitter: 'https://x.com/vamsireddy',  
+    instagram: 'https://www.instagram.com/vamsireddy_20/',
 }
