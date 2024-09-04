@@ -11,6 +11,6 @@ export const personalData = {
   twitter: 'https://x.com/vamsireddy',  
   instagram: 'https://www.instagram.com/vamsireddy_20/',
   resume: "https://github.com/vamsireddy1029/resume.git",
-  devUsername: "vamsireddy_1",
-  devUsername1: "vamsireddy_1"
+  devUsername: "vamsireddy@111",
+  devUsername1: ""
 }
