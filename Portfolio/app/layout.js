@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import { GoogleTagManager } from '@next/third-parties/google';
 import { Inter } from 'next/font/google';
 import { ToastContainer } from 'react-toastify';
@@ -6,11 +7,12 @@ import Footer from './components/footer';
 import Navbar from './components/navbar';
 // import AudioPlayer from './components/AudioPlayer';
 import SwalPopup from './components/SwalPopup';
-import ScrollToTopButton from './ScrollToTop/ScrollToTopButton';
 import './css/card.scss';
 import './css/globals.scss';
 const inter = Inter({ subsets: ['latin'] });
-
+const ScrollToTopButton = dynamic(() => import("./ScrollToTop/ScrollToTopButton"), {
+  ssr: false,
+});
 export const metadata = {
   title: 'VAMSI REDDY',
   description: 'This is the portfolio of Vamsi Reddy. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
