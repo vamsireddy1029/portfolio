@@ -35,7 +35,7 @@ const ScrollToTopButton = () => {
       onClick={scrollToTop}
       title='Scroll To Top 🢁'
     >
-      <img src='/moveToTop.png'/>
+      <img src='/moveToTop.png' />
     </button>
   );
 };

@@ -1,6 +1,4 @@
-# Vidhey Verse (Portfolio)
-
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+# Vamsi Reddy (Portfolio)
 
 ---
 
@@ -22,7 +20,6 @@
 - SKILLS
 - PROJECTS
 - EDUCATION
-- CERTIFICATIONS
 - CONTACTS
 
 ---
@@ -50,9 +47,8 @@ git --version
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```
-git clone https://github.com/<YOUR GITHUB USERNAME>/Vidhey-Verse.git
+git clone repository name
 
-cd Vidhey-Verse
 ```
 
 ### Install packages from the root directory
@@ -91,31 +87,17 @@ NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/Vidhey012/Vidhey-Verse/tree/main/utils/data).
-
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "VIDHEY BHOGADI",
+  name: "Vamsi Reddy",
   profile: '/profile.jpg',
   designation: "Full-Stack Developer",
-  description: "My name is Vidhey Bhogadi...",
-  email: 'vidhey.bhogadi2003@gmail.com',
-  phone: '+917396104404',
-  address: 'Near holy cross school, Gudivada, India - 521301 ',
-  github: 'https://github.com/Vidhey012',
-  facebook: 'https://www.facebook.com/bhogadividhey/',
-  linkedIn: 'https://www.linkedin.com/in/bhogadi-vidhey-aa62b71a8/',
-  twitter: 'https://x.com/name_is_vidhey',  
-  instagram: 'https://www.instagram.com/b_vidhey/',
-  resume: "https://github.com/Vidhey012/Resume/blob/main/Resume_new.pdf",
-  devUsername: "vidhey071",
-  mediumUsername: "vidheywebsites"
+  description: "My name is Vamsi Reddy...",
+  ...
 };
 ```
-
-`devUsername` Used for fetching blog from `dev.to`.
 
 ---
 

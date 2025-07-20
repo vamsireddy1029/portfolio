@@ -18,30 +18,20 @@ function Navbar() {
   return (
     <nav className="bg-transparent">
       <div className="flex items-center justify-between py-5">
-        {/* <div className="flex flex-shrink-0 items-center">
-          <Link
-            href="/"
-            className="flex items-center text-[#16f2b3] text-3xl font-bold">
-              <img 
-              src="favicon.ico" 
-              alt="Logo" 
-              className="h-10 w-10 mr-1" 
-            />
-            <span>VIDHEY</span><span className=" text-pink-500">&nbsp;BHOGADI</span>
-          </Link>
-        </div> */}
 
-        <div className="flex flex-shrink-0 items-center">
-          <Link
-            href="/"
-            className=" text-[#16f2b3] text-3xl font-bold">
-              <img 
-              src="logo.png" 
+        <div className="flex items-center">
+          <Link href="/" className="flex items-center gap-2 text-[#16f2b3] text-3xl font-bold">
+            <img 
+              src="/logo.png" 
               alt="Logo" 
-              className="h-10 md:h-19" 
+              className="h-10 w-auto"
             />
+            <p style={{ color: 'white', fontFamily: 'Poppins, sans-serif', 
+            fontWeight: '600', 
+            fontSize: '1.5rem'  }}>Vamsi Reddy</p>
           </Link>
         </div>
+
 
 
         <button
@@ -57,11 +47,7 @@ function Navbar() {
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">ABOUT</div>
             </Link>
           </li>
-          <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#experience">
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">EXPERIENCE</div>
-            </Link>
-          </li>
+         
           <li>
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#skills">
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">SKILLS</div>
@@ -77,9 +63,10 @@ function Navbar() {
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">EDUCATION</div>
             </Link>
           </li>
+
           <li>
-            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/blog">
-              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">CERTIFICATIONS</div>
+            <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#contact">
+              <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">CONTACT</div>
             </Link>
           </li>
         </ul>
@@ -137,15 +124,6 @@ function Navbar() {
                 onClick={closeMenu}
               >
                 EDUCATION 🎓
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="neon-text-purple text-2xl font-bold no-underline outline-none hover:no-underline"
-                href="/blog"
-                onClick={closeMenu}
-              >
-                CERTIFICATIONS 📜
               </Link>
             </li>
           </ul>

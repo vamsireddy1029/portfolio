@@ -40,7 +40,7 @@ function ContactWithoutCaptcha() {
 
     try {
       const res = await emailjs.send(serviceID, templateID, {
-        to_name: 'Vidhey',  // Update with recipient's name if needed
+        to_name: 'Vamsi',  // Update with recipient's name if needed
         from_name: input.name,
         from_email: input.email,
         message: input.message,
@@ -125,7 +125,7 @@ function ContactWithoutCaptcha() {
               role="button"
               onClick={handleSendMail}
             >
-              <span>Talk to Vidhey</span>
+              <span>Talk to Vamsi</span>
               <TbMailForward className="mt-1" size={18} />
             </button>
           </div>

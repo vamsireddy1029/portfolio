@@ -1,32 +1,42 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Swal from 'sweetalert2';
+import AudioPlayer from './AudioPlayer'; // import the player
 
 const SwalPopup = () => {
-  useEffect(() => {
+  const [showAudio, setShowAudio] = useState(false);
 
+  useEffect(() => {
     Swal.fire({
       title: 'Welcome to my Digital Space 🌟',
-      text: 'Let\'s start exploring this website with a musical vibe 🎸🎧🎷',
-      imageUrl: '/profile.jpg',
-      imageAlt: 'Title Logo',
-      showConfirmButton: true,
+      text: "Let's start exploring this website with a musical vibe 🎸🎧🎷",
       confirmButtonText: "Explore 🚀",
+      showCancelButton: true,
+      cancelButtonText: 'Close ❌',
       background: `
         rgba(0, 0, 3, 0.8)
         url("/popupbg.jpg")
         center center
         no-repeat
-      `
+      `,
+      customClass: {
+        popup: 'bg-black text-white',
+      }
     }).then((result) => {
-        const audio = new Audio("audio\\Music1.mp3");
-        audio.play();
-      });
+      if (result.isConfirmed) {
+        setShowAudio(true); // only play audio if user clicks "Explore 🚀"
+      } else {
+        setShowAudio(false); // explicitly ensure audio doesn’t play
+      }
+    });
+  }, []);
 
-  }, []); 
-
-  return null;
+  return (
+    <>
+      {showAudio && <AudioPlayer />}
+    </>
+  );
 };
 
 export default SwalPopup;

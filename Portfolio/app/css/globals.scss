@@ -109,6 +109,21 @@ body {
   display: flex;
   justify-content: center;
 }
+.swal2-cancel {
+  background-color: #ff00ff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 50px !important;
+  font-size: 30px;
+  font-weight: bolder;
+  box-shadow: 0 0 15px #2d9ab6;
+  transition: background-color 0.3s ease;
+  margin-left: 1rem; /* Optional spacing between buttons */
+}
+
+.swal2-cancel:hover {
+  background-color: #2d9ab6;
+}
 
 .swal2-confirm {
   background-color: #ff00ff;

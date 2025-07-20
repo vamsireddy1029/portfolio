@@ -13,12 +13,12 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © The Portfolio of <Link target="_blank" href="https://www.linkedin.com/in/bhogadi-vidhey-aa62b71a8/" className="text-[#16f2b3]">Vidhey Bhogadi</Link>
+            © The Portfolio of <Link target="_blank" href="https://www.linkedin.com/in/vamsi-reddy-450583269/" className="text-[#16f2b3]">Vamsi Reddy</Link>
           </p>
           <div className="flex items-center gap-5">
           <Link
               target="_blank"
-              href="https://www.instagram.com/b_vidhey/"
+              href="https://www.instagram.com/vamsireddy_11/"
               className="flex items-center gap-2 hover:text-[#16f2b3]"
             >
               <AiFillInstagram />
@@ -26,7 +26,7 @@ function Footer() {
             </Link>
             <Link
               target="_blank"
-              href="https://github.com/Vidhey012"
+              href="https://github.com/vamsireddy1029"
               className="flex items-center gap-2 hover:text-[#16f2b3]"
             >
               <IoStar />

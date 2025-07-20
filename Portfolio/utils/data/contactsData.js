@@ -6,5 +6,5 @@ export const contactsData = {
     facebook: 'https://www.facebook.com/vamsireddy/',
     linkedIn: 'https://www.linkedin.com/in/vamsi-reddy-450583269/',
     twitter: 'https://x.com/vamsireddy',  
-    instagram: 'https://www.instagram.com/vamsireddy_20/',
+    instagram: 'https://www.instagram.com/vamsireddy_11/',
 }
