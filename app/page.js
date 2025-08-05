@@ -1,4 +1,4 @@
-"use client"; // ✅ make it client-side
+// "use client"; // ✅ make it client-side
 
 import { personalData } from "@/utils/data/personal-data";
 import AboutSection from "./components/homepage/about";
@@ -20,5 +20,5 @@ export default function Home() {
       <Education />
       <ContactSection />
     </>
-  );
-}
+  )
+};
