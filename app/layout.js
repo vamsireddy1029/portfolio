@@ -10,9 +10,9 @@ import SwalPopup from './components/SwalPopup';
 import './css/card.scss';
 import './css/globals.scss';
 const inter = Inter({ subsets: ['latin'] });
-// const ScrollToTopButton = dynamic(() => import("./ScrollToTop/ScrollToTopButton"), {
-//   ssr: false,
-// });
+const ScrollToTopButton = dynamic(() => import("./ScrollToTop/ScrollToTopButton"), {
+  ssr: false,
+});
 export const metadata = {
   title: 'VAMSI REDDY',
   description: 'This is the portfolio of Vamsi Reddy. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
