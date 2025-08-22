@@ -27,7 +27,7 @@ function AboutSection() {
             src={personalData.profile}
             width={450}
             height={280}
-            alt="Vidhey Bhogadi"
+            alt="Vamsi Reddy"
             className="rounded-3xl transition-all duration-1000 md:grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
           />
         </div>
