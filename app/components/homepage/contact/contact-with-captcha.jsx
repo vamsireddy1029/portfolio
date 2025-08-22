@@ -31,9 +31,8 @@ function ContactWithCaptcha() {
       toast.error('Please complete the captcha!');
       return;
     } else {
-      const res = await axios.post(`${process.env.NEXT_PUBLIC_APP_URL}/api/google`, {
-        token: captcha
-      });
+      const res = await axios.post("/api/google", { token: captcha });
+
 
       setCaptcha(null);
       if (!res.data.success) {
