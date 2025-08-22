@@ -59,8 +59,8 @@ function ContactWithCaptcha() {
     try {
       const res = await emailjs.send(serviceID, templateID, {
         to_name: 'Vamsi',  // Update with recipient's name if needed
-        from_name: input.name,
-        from_email: input.email,
+        name: input.name,
+        email: input.email,
         message: input.message,
       }, options);
 
